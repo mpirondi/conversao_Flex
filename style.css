@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: arial, sans-serif;
+    background-color: #ddd;
+    align-items: center;
+    height: 100%;
 }
 
 header, footer {
@@ -9,24 +12,55 @@ header, footer {
     text-align: center;
     padding: 20px;
     color: #fff;
+    font-size:  larger;
 }
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 main {
     background-color: #ddd;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
     justify-content: center;
-    padding: 100px;
+    gap: 20px;
+    padding: 200px;
 }
 
 .conversor {
+    border: #a5a5a5 2px solid;
     background-color: #fff;
+    width: 450px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    box-sizing: border-box;
     border-radius: 5px;
-    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    align-items: flex-start;
+
+}
+
+label {
+    font-size: larger;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: larger;
     padding: 10px;
 }
 
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: larger;
+    background-color: #464646;
+    color: #fff;
+    border-radius: 5px;
+}
