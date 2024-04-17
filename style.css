@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+main {
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 100px;
+}
+
+.conversor {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
